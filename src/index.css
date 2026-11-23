@@ -1,0 +1,41 @@
+:root {
+  --surface-00: #05070C;
+  --surface-01: #0A0D12;
+  --surface-02: #0F131C;
+  --surface-03: #161D2B;
+  --surface-04: #1E2636;
+  --accent: #38BDF8;
+  --accent-muted: #6EE7B7;
+  --text-primary: #E8ECF2;
+  --text-secondary: #9BA3B4;
+  --radius-full: 999px;
+  --radius-lg: 24px;
+  --radius-md: 16px;
+  --spacing-xs: clamp(0.5rem, 2vw, 0.75rem);
+  --spacing-sm: clamp(0.75rem, 3vw, 1rem);
+  --spacing-md: clamp(1rem, 4vw, 1.5rem);
+  --spacing-lg: clamp(1.5rem, 5vw, 2rem);
+  --spacing-xl: clamp(2rem, 6vw, 3rem);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--surface-00);
+  color: var(--text-primary);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
