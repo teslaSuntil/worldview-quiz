@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/worldview-quiz/static/css/main.7b080ac9.css",
+    "main.js": "/worldview-quiz/static/js/main.6b108d1d.js",
+    "index.html": "/worldview-quiz/index.html",
+    "main.7b080ac9.css.map": "/worldview-quiz/static/css/main.7b080ac9.css.map",
+    "main.6b108d1d.js.map": "/worldview-quiz/static/js/main.6b108d1d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7b080ac9.css",
+    "static/js/main.6b108d1d.js"
+  ]
+}
